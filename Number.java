@@ -13,3 +13,9 @@ public class Number {
     this.number = number;
   }
 }
+
+void addThree(Number value) {
+  System.out.println("Parameter: value = " + value.getNumber());
+  value.setNumber(value.getNumber() + 3);
+  System.out.println("Leaving the method: value = " value.getNumber());
+}
