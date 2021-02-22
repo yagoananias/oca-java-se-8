@@ -3,5 +3,6 @@ public class Main {
     Car yourCar = new Car(230, true);
     
     System.out.println(yourCar.isRunning());
+    System.out.println(yourCar.getTopSpeed());
   }
 }
