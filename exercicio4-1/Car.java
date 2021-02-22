@@ -1,6 +1,8 @@
 public class Car {
+  
   int topSpeed;
   boolean running;
+  
   Car (int topSpeed, boolean running) {
     this.running = running;
     this.topSpeed = topSpeed;
@@ -8,5 +10,9 @@ public class Car {
   
   public boolean isRunning() {
     return running;
+  }
+  
+  public int getTopSpeed(){
+	  return topSpeed;
   }
 }
